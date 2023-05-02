@@ -25,7 +25,6 @@ import Sample from './Scenes/Sample'
 import Assignment_Solution from './Scenes/Assignment_Solution'
 import Whatsappicon from './Scenes/Whatsappicon'
 
-
 function App() {
   return (
     <>
