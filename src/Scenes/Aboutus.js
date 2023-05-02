@@ -4,9 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import img from '../Images/about.png'
-
 import { Link } from "react-router-dom";
-
 
 function About() {
     return (
