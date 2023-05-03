@@ -2,7 +2,7 @@ import * as React from 'react';
 import Rating from '@mui/material/Rating';
 
 export default function BasicRating() {
-    const [value, setValue] = React.useState(2);
+    const [value, setValue] = React.useState(4);
 
     return (
 

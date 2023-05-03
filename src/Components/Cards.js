@@ -5,6 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CardGroup from 'react-bootstrap/CardGroup';
+import img from '../Images/ava1.png'
+import img1 from '../Images/ava2.png'
+import img2 from '../Images/ava4.png'
 import img13 from '../Images/user.webp';
 import img14 from '../Images/capture 12.PNG'
 function GroupExample() {
@@ -16,7 +19,9 @@ function GroupExample() {
                         <div class="card-header">
                             <div class="row">
 
-                                <div class="col-3"><img src={img13} alt="" /></div><br />
+                                <div class="col-3"><div class="pic">
+                            <img src={img}/>
+                        </div></div><br />
                                 <div class="col-7">Cust.ID: <br /><Rating /><br />
                                     <b>Canada</b>
                                 </div>
@@ -37,7 +42,9 @@ function GroupExample() {
                     <Col><div class="card  mb-3" style={{ maxWidth: '18rem' }}>
                         <div class="card-header">
                             <div class="row">
-                                <div class="col-3"><img src={img13} alt="" /></div><br />
+                                <div class="col-3"><div class="pic">
+                            <img src={img1}/>
+                        </div></div><br />
                                 <div class="col-7">Cust.ID:  <br /><Rating /><br />
                                     <b> Australia</b>
                                 </div>
@@ -59,7 +66,9 @@ function GroupExample() {
                     <Col><div class="card  mb-3" style={{ maxWidth: '18rem' }}>
                         <div class="card-header">
                             <div class="row">
-                                <div class="col-3"><img src={img13} alt="" /></div>
+                                <div class="col-3"><div class="pic">
+                            <img src={img2}/>
+                        </div></div>
                                 <div class="col-7">Cust.ID: <Rating />
                                     <b> Australia</b>
                                 </div>

@@ -1,0 +1,94 @@
+.f{
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+}
+.i{
+    width: 100%;
+   height: 100%;
+}
+.h{
+    margin: right 5px;
+    margin-right: 100px;
+    color: rgb(138, 46, 46)
+
+}
+.p{
+    margin: left 100px;
+    margin-right: 0px
+
+}
+.c{
+    color: rgb(138, 46, 46)
+}
+.a{
+    background-color: rgb(209 204 204);
+}
+
+
+
+.b{
+    
+    border-color: white
+}
+
+.serviceBox1{
+    color: var(--main-color);
+    background: var(--main-color);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 30px 15px 15px;
+    border-radius: 25px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.serviceBox1 .title{
+    color: #222;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 15px 5px 10px;
+    margin: 0 0 15px;
+    box-shadow: inset 0px 7px 15px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+.serviceBox1 .service-content{
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 15px;
+    box-shadow: inset 0 -8px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.serviceBox1 .description{
+    color: #333;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+    margin: 0 0 15px;
+}
+.serviceBox1 .service-icon{
+    font-size: 40px;
+    line-height: 40px;
+}
+.serviceBox1.pink{ --main-color: #DD016D; }
+.serviceBox1.orange{ --main-color: #F69220; }
+.serviceBox1.purple{ --main-color: #91557a; }
+@media only screen and (max-width: 1199px){
+    .serviceBox1{ margin: 0 0 40px; }
+}
+.pic{
+    display: inline-block;
+    width: 100px;
+    
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.pic img{
+    width: 60%;
+    height: auto;
+}
+
+.linked .card{
+    max-width: '8rem'
+}
