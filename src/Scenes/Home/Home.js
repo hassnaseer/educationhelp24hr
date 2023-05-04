@@ -49,27 +49,23 @@ function Home() {
                 </div>
             </div>
             </div> */}
-            <div class=" a jumbotron jumbotron-fluid" >
+            <div class="background jumbotron jumbotron-fluid" >
 
                 <div class="container my-4">
                     <div class="row mx-0">
-                        <div class="col"><br /><br />
-                            <h1 class="my-3 display-6 text-white"> <b> Facing Difficulties With Your <br />Online
+                        <div class="col mt-5">
+                            <h1 class="my-5 display-6 text-white"> <b> Facing Difficulties With Your <br />Online
                                 Exams/Assignments?
-                            </b></h1><br /><br /><h4>We offer 50% discounts</h4>
+                            </b></h1><h4>We offer 50% discounts</h4>
                             <h4 className='my-4 text-white'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
                             <p class="lead"><button type="button" style={{ borderRadius: '50px' }} class="btn btn-outline-light">
                                 <b> Take A
                                     Tour</b></button></p>
                         </div>
-                        <div class="col-md-auto">
+                        <div class="col text-center">
                             <img className='my-5' src="https://www.asignmenthelp.com/img/sale-bag.webp" alt="" style={{
                                 width: '350px'
                             }} />
-                            
-
-                        </div>
-                        <div class="col col-lg-2">
                         </div>
                     </div>
 
@@ -81,7 +77,7 @@ function Home() {
             </marquee>
             <div className="container my-4"> 
                 <Crousals />
-            </div><br /><br />
+            </div>
            
             <div class="container mx-4">
             </div>
