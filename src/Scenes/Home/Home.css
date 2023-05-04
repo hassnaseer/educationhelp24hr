@@ -28,6 +28,10 @@
     background-color: rgb(209 204 204);
 }
 
+.background {
+    background-color: rgb(138, 46, 46);
+}
+
 
 
 .b {
@@ -41,8 +45,13 @@
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     padding: 30px 15px 15px;
+
     border-radius: 25px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
 }
 
 .serviceBox1 .title {
