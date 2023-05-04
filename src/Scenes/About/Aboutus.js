@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer'
 import img from '../../Images/about.png'
 import { Link } from "react-router-dom";
 
-    function About() {
+function About() {
     return (
         <>
             <Navbar />
@@ -32,7 +32,7 @@ import { Link } from "react-router-dom";
                 </div>
             </div> */}
             <br /><br />
-            
+
             <div className="container">
                 <Row>
                     <Col>
