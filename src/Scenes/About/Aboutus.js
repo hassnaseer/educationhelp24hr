@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer'
 import img from '../../Images/about.png'
 import { Link } from "react-router-dom";
 
-    function About() {
+function About() {
     return (
         <>
             <Navbar />
@@ -32,7 +32,7 @@ import { Link } from "react-router-dom";
                 </div>
             </div> */}
             <br /><br />
-            
+
             <div className="container">
                 <Row>
                     <Col>
@@ -93,7 +93,7 @@ import { Link } from "react-router-dom";
                         <h5>Order Delivered</h5>
                     </div>
                 </div>
-            </div><br />
+            </div>
             <div className="container my-0">
                 <div class="container-fluid my-5">
                     <h1 className='text-center'> Here you find us!</h1>

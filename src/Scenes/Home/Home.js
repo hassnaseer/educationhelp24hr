@@ -56,7 +56,7 @@ function Home() {
                         <div class="col"><br /><br />
                             <h1 class="my-3 display-6 text-white"> <b> Facing Difficulties With Your <br />Online
                                 Exams/Assignments?
-                            </b></h1><br /><br /><h4 className="text-effect" >We offer 50% discounts</h4>
+                            </b></h1><h4 className="text-effect text-left" >We offer 50% discounts</h4>
                             <h4 className='my-4 text-white'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
                             <p class="lead"><button type="button" style={{ borderRadius: '50px' }} class="btn btn-outline-light">
                                 <b> Take A
