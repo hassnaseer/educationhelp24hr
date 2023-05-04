@@ -56,7 +56,7 @@ function Home() {
                         <div class="col"><br /><br />
                             <h1 class="my-3 display-6 text-white"> <b> Facing Difficulties With Your <br />Online
                                 Exams/Assignments?
-                            </b></h1><br /><br /><h4>We offer 50% discounts</h4>
+                            </b></h1><br /><br /><h4 className="text-effect" >We offer 50% discounts</h4>
                             <h4 className='my-4 text-white'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
                             <p class="lead"><button type="button" style={{ borderRadius: '50px' }} class="btn btn-outline-light">
                                 <b> Take A
@@ -66,7 +66,7 @@ function Home() {
                             <img className='my-5' src="https://www.asignmenthelp.com/img/sale-bag.webp" alt="" style={{
                                 width: '350px'
                             }} />
-                            
+
 
                         </div>
                         <div class="col col-lg-2">
@@ -79,18 +79,18 @@ function Home() {
             <marquee width="100%" direction="left" className="blink">
                 For the solution of your homework or assignment please contac us with our official email & WhatsApp.
             </marquee>
-            <div className="container my-4"> 
+            <div className="container my-4">
                 <Crousals />
             </div><br /><br />
-           
+
             <div class="container mx-4">
             </div>
             <div className="container">
                 <h1 className='text-center text-dark'>Customers Reviews</h1> <br />
                 <Cards />
             </div><br />
-            <div class="container">  
-                <h3 className='text-center'> <b> Online Educational Assistance</b></h3>      
+            <div class="container">
+                <h3 className='text-center'> <b> Online Educational Assistance</b></h3>
             </div>
             <div class="container">
                 <h4 className='h' >
@@ -124,8 +124,8 @@ function Home() {
                     <a class="btn btn-outline-danger" href="/" role="button">Order Now</a>
                 </h1>
             </div>
-            
-            <div class="container my-4">
+
+            {/* <div class="container my-4">
                 <div class="row">
                     <div class=" c col-sm text-center" >
                         <h1>2,177,466</h1>
@@ -140,44 +140,44 @@ function Home() {
                         <p><b> CLIENT RATING</b></p>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div class="container">
-    <div class="row ">
-    <div class="col">
-            <div class="serviceBox1 purple">
-                <h3 class="title">Share Your <br /> Requirements</h3>
-                <div class="service-content">
-                    <p class="description">To ensure a seamless learning experience, we encourage you to share your assignment related queries or instruction file(s) with our experienced tutors. By doing so, you can enable them to understand your requirements in a more comprehensive and efficient manner, ultimately leading to better results.</p>
-                    <div class="service-icon">
-                        <span>01</span>
+                <div class="row ">
+                    <div class="col">
+                        <div class="serviceBox1 purple">
+                            <h3 class="title">Share Your <br /> Requirements</h3>
+                            <div class="service-content">
+                                <p class="description">To ensure a seamless learning experience, we encourage you to share your assignment related queries or instruction file(s) with our experienced tutors. By doing so, you can enable them to understand your requirements in a more comprehensive and efficient manner, ultimately leading to better results.</p>
+                                <div class="service-icon">
+                                    <span>01</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="serviceBox1 purple">
+                            <h3 class="title">Make Partial <br /> Payment</h3>
+                            <div class="service-content">
+                                <p class="description">To secure the services of our highly qualified tutors, we request a partial payment upon booking. We also offer flexible payment plans to make our services accessible to all students. This not only guarantees your spot in our schedule but also serves as a gesture of commitment towards your educational success.</p>
+                                <div class="service-icon">
+                                    <span>02</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="serviceBox1 purple">
+                            <h3 class="title">Receive The <br /> Delivery</h3>
+                            <div class="service-content">
+                                <p class="description">Upon receipt and verification of the proof of work, kindly clear any pending payments to receive the requested service/task within the promised deadline. We understand that revisions may be necessary in assignment some cases, thus we encourage students to request revisions until they are completely satisfied with the    product.</p>
+                                <div class="service-icon">
+                                    <span>03</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="serviceBox1 purple">
-                <h3 class="title">Make Partial <br /> Payment</h3>
-                <div class="service-content">
-                    <p class="description">To secure the services of our highly qualified tutors, we request a partial payment upon booking. We also offer flexible payment plans to make our services accessible to all students. This not only guarantees your spot in our schedule but also serves as a gesture of commitment towards your educational success.</p>
-                    <div class="service-icon">
-                        <span>02</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="serviceBox1 purple">
-                <h3 class="title">Receive The <br /> Delivery</h3>
-                <div class="service-content">
-                    <p class="description">Upon receipt and verification of the proof of work, kindly clear any pending payments to receive the requested service/task within the promised deadline. We understand that revisions may be necessary in assignment some cases, thus we encourage students to request revisions until they are completely satisfied with the    product.</p>
-                    <div class="service-icon">
-                        <span>03</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-                </div><br />
+            </div><br />
             {/* <div>
                 <h1 className='text-center'>Strategy planning</h1>
                 <p className='text-center' >When we Get any Task or assignment we work and research on it with different
@@ -211,14 +211,14 @@ function Home() {
             </div> */}
             <div class="a jumbotron jumbotron-fluid"><br />
                 <div class="container">
-                <h3 className='text-center my-2'>Why Students from All Across The Globe Choose US?</h3>
+                    <h3 className='text-center my-2'>Why Students from All Across The Globe Choose US?</h3>
                     <p>When it comes to assignment tutoring services, students may have many options to choose from. However, when they choose us, they can be confident that they are getting the best in the industry. We offer bespoke solutions to all their academic needs, ensuring that they receive the support they need to succeed in their academic pursuits.</p>
                     <p>One of the reasons students choose us is because of the lightning-speed delivery of our services. We understand that deadlines are crucial, and we go above and beyond to ensure that our students receive their work on time. Our team of assignment tutors is highly efficient and dedicated to providing timely delivery of asked services without sacrificing the quality of work.</p>
-                    <p>We prioritize students’ satisfaction above everything else. We understand that academic success is critical to their future, and we take our responsibility seriously. We ensure that our students are happy with our work by offering unlimited live sessions with tutors, revisions in writeups until they are fully satisfied. If, for any reason, our students are not happy with our work, we offer a full refund - no questions asked.</p> 
-                    <br />  
-    
+                    <p>We prioritize students’ satisfaction above everything else. We understand that academic success is critical to their future, and we take our responsibility seriously. We ensure that our students are happy with our work by offering unlimited live sessions with tutors, revisions in writeups until they are fully satisfied. If, for any reason, our students are not happy with our work, we offer a full refund - no questions asked.</p>
+                    <br />
 
-                </div> 
+
+                </div>
             </div>
             <div class="container my-4">
                 <h3 className='text-center text-dark' >What Makes Our Reviews Trustworthy</h3>

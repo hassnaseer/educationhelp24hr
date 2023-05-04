@@ -1,47 +1,51 @@
-.f{
+.f {
     background-color: brown;
     width: 100%;
     height: 100%;
 }
-.i{
+
+.i {
     width: 100%;
-   height: 100%;
+    height: 100%;
 }
-.h{
+
+.h {
     margin: right 5px;
     margin-right: 100px;
     color: rgb(138, 46, 46)
-
 }
-.p{
+
+.p {
     margin: left 100px;
     margin-right: 0px
-
 }
-.c{
+
+.c {
     color: rgb(138, 46, 46)
 }
-.a{
+
+.a {
     background-color: rgb(209 204 204);
 }
 
 
 
-.b{
-    
+.b {
+
     border-color: white
 }
 
-.serviceBox1{
+.serviceBox1 {
     color: var(--main-color);
     background: var(--main-color);
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     padding: 30px 15px 15px;
     border-radius: 25px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
-.serviceBox1 .title{
+
+.serviceBox1 .title {
     color: #222;
     background: #fff;
     font-size: 20px;
@@ -53,13 +57,15 @@
     box-shadow: inset 0px 7px 15px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
 }
-.serviceBox1 .service-content{
+
+.serviceBox1 .service-content {
     background: #fff;
     padding: 20px 15px;
     border-radius: 15px;
     box-shadow: inset 0 -8px 15px 0px rgba(0, 0, 0, 0.3);
 }
-.serviceBox1 .description{
+
+.serviceBox1 .description {
     color: #333;
     font-size: 16px;
     line-height: 25px;
@@ -67,28 +73,86 @@
     text-align: justify;
     margin: 0 0 15px;
 }
-.serviceBox1 .service-icon{
+
+.serviceBox1 .service-icon {
     font-size: 40px;
     line-height: 40px;
 }
-.serviceBox1.pink{ --main-color: #DD016D; }
-.serviceBox1.orange{ --main-color: #F69220; }
-.serviceBox1.purple{ --main-color: #91557a; }
-@media only screen and (max-width: 1199px){
-    .serviceBox1{ margin: 0 0 40px; }
+
+.serviceBox1.pink {
+    --main-color: #DD016D;
 }
-.pic{
+
+.serviceBox1.orange {
+    --main-color: #F69220;
+}
+
+.serviceBox1.purple {
+    --main-color: #91557a;
+}
+
+@media only screen and (max-width: 1199px) {
+    .serviceBox1 {
+        margin: 0 0 40px;
+    }
+}
+
+.pic {
     display: inline-block;
     width: 100px;
-    
+
     margin-bottom: 20px;
     overflow: hidden;
 }
-.pic img{
+
+.pic img {
     width: 60%;
     height: auto;
 }
 
-.linked .card{
+.linked .card {
     max-width: '8rem'
+}
+
+.text-effect {
+    color: #fff;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 43px;
+    font-weight: 400;
+    text-align: center;
+    animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+
+    0%,
+    100% {
+        color: #f5efcb;
+        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8,
+            0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+    }
+
+    50% {
+        color: #eda0d3;
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b,
+            0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .text-effect {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .text-effect {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .text-effect {
+        font-size: 35px;
+    }
 }

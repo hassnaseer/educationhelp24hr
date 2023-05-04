@@ -35,7 +35,7 @@ function Thesis() {
                             </p>
                         </div>
                         <div className="col">
-                            <img src="https://media.istockphoto.com/id/1389157460/photo/newspaper-and-digital-tablet-on-wooden-table.jpg?s=612x612&w=0&k=20&c=CNKIHIEE4HnEnqDpUCyvnEfbf8nn90jRfX6TmhbGBxc="
+                            <img src="https://media.istockphoto.com/id/1367899897/photo/group-of-people-meeting-with-technology-and-paperwork.jpg?s=612x612&w=0&k=20&c=JXz4eyFIMuCJPSv-oRqdB_4ATzQbNU21vKvEU68t1_c="
                                 class="img-fluid my-4" alt="..." />
                         </div>
 
