@@ -8,27 +8,46 @@ function Quizez() {
     return (
         <>
             <Navbar /><br />
-            <div class="container my-2"></div>
-            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
+            {/* <div class="container my-2"></div> */}
+            {/* <div class="container my-4">
+                <div class="row mx-0">
+                    <div class="col pt-4">
+                        <h1 class="my-5 display-6 text-white"> <b> Facing Difficulties With Your <br />Online
+                            Exams/Assignments?
+                        </b></h1><h4 className="text-effect text-left" >We offer 50% discounts</h4>
+                        <h4 className='my-4 text-white'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
+                        <p class="lead"><button type="button" style={{ borderRadius: '50px' }} class="btn btn-outline-light">
+                            <b> Take A
+                                Tour</b></button></p>
+                    </div>
+                    <div class="col text-center">
+                        <img className='my-5' src="https://www.asignmenthelp.com/img/sale-bag.webp" alt="" style={{
+                            width: '350px'
+                        }} />
 
-                            <br /><br />
-                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Face difficulty in solve <br /> your class Quiz
+
+                    </div>
+                </div>
+
+            </div> */}
+            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
+                <div class="container my-4">
+                    <div class="row mx-0">
+                        <div class="col pt-4">
+                            <h1 className='my-5 display-6 text-white' > <b> Face difficulty in solve <br /> your class Quiz
 
                             </b></h1>
-                            <p className='mx-5' style={{ color: 'white' }}>Don’t Worry we will help you in solve your quiz
+                            <p className='my-4 text-white' >Don’t Worry we will help you in solve your quiz
                             </p>
                         </div>
-                        <div class="col my-4">
-                            <img src={img} class="img-fluid" alt="..." />
+                        <div class="col text-center">
+                            <img src={img} class="img-fluid my-5" alt="..." />
                         </div>
                     </div>
                 </div>
-            </div><br /><br />
-            <div class="container my-2" style={{ textAlign: 'center' }}>
-                <h1>Reasons To Choose Our Quiz Writing Help</h1><br />
+            </div>
+            <div class="container my-4" style={{ textAlign: 'center' }}>
+                <h1>Reasons To Choose Our Quiz Writing Help</h1>
             </div>
             <div class="contaier">
             </div><br /><br />

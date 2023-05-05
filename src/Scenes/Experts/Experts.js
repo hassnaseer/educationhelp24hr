@@ -18,14 +18,14 @@ function Experts() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-9 my-4">
                             <div class="container my-lg-5"></div>
-                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Meet With Our Expert Team <br />
+                            <h1 className='text-white mx-5 my-4'> <b> Meet With Our Expert Team <br />
                                 Professionals in their Field
                             </b></h1>
                         </div>
                         <div class="col">
-                            <img src={img} class="img-fluid" alt="..." />
+                            <img src={img} class="img-fluid my-4" alt="..." />
 
                         </div>
                     </div>

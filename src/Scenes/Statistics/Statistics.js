@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../../Images/images-removebg-preview.png'
 import img1 from '../../Images/statistics-assignment_5656b61ac02ee.jpg'
+import img2 from '../../Images/Statistics.png'
 import Navbar from '../../Components/Navbar';
 import Footer from '../../Components/Footer'
 function Statistics() {
@@ -15,12 +16,12 @@ function Statistics() {
                             <div class="container my-lg-5"></div>
                             <h1 className='mx-5' style={{ color: 'white' }}> <b> Statistic Assignment
                             </b></h1>
-                            <p className='mx-5' style={{ color: 'white' }}>You Have to don’t worry about your assignment We are hear to help You In your studies.
+                            <p className='mx-5 my-5' style={{ color: 'white' }}>You Have to don’t worry about your assignment <br /> We are hear to help You In your studies.
 
                             </p>
                         </div>
                         <div class="col">
-                            <img src={img} class="img-fluid my-5" alt="..." />
+                            <img src={img2} class="img-fluid my-5" alt="..." />
 
                         </div>
                     </div>

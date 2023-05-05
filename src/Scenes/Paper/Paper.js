@@ -10,11 +10,45 @@ function Paper() {
     return (
         <>
             <Navbar /><br />
+            {/* <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
+                <div class="container my-4">
+                    <div class="row mx-0">
+                        <div class="col my-3 pt-4">
+                            <h1 className='my-4 display-6 text-white' > <b> Hire a Helper to solve <br /> your exam
+
+                            </b></h1>
+                            <p className='my-5 pt-4 text-white' >We are service provider and solve your exam with our best <br /> team and Hard
+                                working Passionate team.
+                            </p>
+                        </div>
+                        <div class="col text-center my-2">
+                            <img src="https://media.istockphoto.com/id/92068767/photo/graded-quiz.jpg?s=612x612&w=0&k=20&c=dMTLEfD8WvCIgNKuL0BsbBcCx4Id0D8zVFbr79-r4HU=" class="img-fluid my-5" alt="..." width={'65%'} />
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+            {/* <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col">
+                            <h1 className='display-6 text-white my-4' > <b> Hire a Helper to solve <br /> your exam
+
+                            </b></h1>
+                            <p className='text-white' >We are service provider and solve your exam with our best <br /> team and Hard
+                                working Passionate team.
+                            </p>
+                        </div>
+                        <div class="col  ">
+                            <img src="https://media.istockphoto.com/id/1389157460/photo/newspaper-and-digital-tablet-on-wooden-table.jpg?s=612x612&w=0&k=20&c=CNKIHIEE4HnEnqDpUCyvnEfbf8nn90jRfX6TmhbGBxc=" class="img-fluid my-5" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div> */}
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
-                    <div class="row">
+                    <div class="row my-2">
                         <div class="col-9">
-                            <div class="container my-lg-5"></div>
+                            <div class="container my-4"></div>
                             <h1 style={{ color: 'white' }}> <b> Hire a Helper to solve <br /> your exam
 
                             </b></h1>

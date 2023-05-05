@@ -16,13 +16,13 @@ function Assignment_Solution() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-9 my-4">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b> Our Best Sample Assignment Solution for Our Students!
+                            <h1 className='text-white '> <b> Our Best Sample Assignment <br /> Solution  for Our Students!
                             </b></h1>
                         </div>
                         <div class="col">
-                            <img src={img} class="img-fluid" alt="..." />
+                            <img src={img} class="img-fluid my-4" alt="..." />
 
                         </div>
                     </div>

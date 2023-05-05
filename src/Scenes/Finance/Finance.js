@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../../Images/finance-assignment-sample-removebg-preview.png';
 import img1 from '../../Images/Finance-assignment-help.jpg'
+import img2 from '../../Images/Finance.png'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer';
 
@@ -17,11 +18,11 @@ function Finance() {
                             <h1 className='mx-5' style={{ color: 'white' }}> <b>Finance Assignment
 
                             </b></h1>
-                            <p className='mx-5' style={{ color: 'white' }}>You Have to don’t worry about your assignment We are hear to help You In your studies.
+                            <p className='mx-5 my-5' style={{ color: 'white' }}>You Have to don’t worry about your assignment <span><br />We are hear to help You In your studies.</span>
                             </p>
                         </div>
                         <div class="col">
-                            <img src={img} class="img-fluid" alt="..." />
+                            <img src={img2} class="img-fluid my-4" alt="..." />
                         </div>
                     </div>
                 </div>

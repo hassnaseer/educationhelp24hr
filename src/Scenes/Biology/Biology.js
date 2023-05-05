@@ -1,4 +1,5 @@
 import React from 'react'
+import img from '../../Images/Biology.png'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
 
@@ -12,13 +13,13 @@ function Calculus() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Biology Assignment
+                            <h1 className='mx-5 my-2' style={{ color: 'white' }}> <b> Biology Assignment
                             </b></h1>
-                            <p className='mx-5' style={{ color: 'white' }}>Don’t worry we are hear
+                            <p className='mx-5 my-5' style={{ color: 'white' }}>Don’t worry we are hear
                             </p>
                         </div>
                         <div class="col">
-                            <img src="https://media.istockphoto.com/id/158649166/photo/lab-experiment.jpg?s=612x612&w=0&k=20&c=geIx7AFR5lznZ8gl7NyXqJBHfi5bQIX2Cf9fWOj7meY=" class="img-fluid my-4" alt="..." />
+                            <img src={img} class="img-fluid my-5" alt="..." />
                         </div>
                     </div>
                 </div>

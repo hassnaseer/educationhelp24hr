@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../../Images/Project-Management-Assignment-Help-in-India-removebg-preview.png'
 import img1 from '../../Images/riskmanagement-min-768x391.jpg'
+import img2 from '../../Images/Managemtnt.png'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
 
@@ -13,17 +14,17 @@ function Management() {
                 <div class="container my-2">
                     <div class="row">
                         <div class="col-9">
-                            <div class="container my-lg-5"></div>
+                            <div class="container my-5"></div>
                             <h1 className='mx-5' style={{ color: 'white' }}> <b> Are you unable to solve <br /> your management Task?
 
 
                             </b></h1>
-                            <p className='mx-5' style={{ color: 'white' }}>Don’t worry we are hear
+                            <p className='mx-5 my-5' style={{ color: 'white' }}>Don’t worry we are hear
 
                             </p>
                         </div>
                         <div class="col">
-                            <img src={img} class="img-fluid" alt="..." />
+                            <img src={img2} class="img-fluid my-5" alt="..." />
 
                         </div>
                     </div>

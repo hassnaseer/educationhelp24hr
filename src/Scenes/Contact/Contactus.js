@@ -4,7 +4,7 @@ import { MailIcon } from 'react-mail-icon'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import img45 from '../../Images/123.png'
-import img from '../../Images/contact-us-3483604-2912020.webp';
+import img from '../../Images/Contact.png';
 import img1 from '../../Images/whatsapp-2317203__340.webp';
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer';
@@ -55,7 +55,7 @@ function Contactus() {
                   Tour</b></button></p>
             </div>
             <div class="col my-5">
-              <img className='my-5 mx-0' src="https://media.istockphoto.com/id/1053986724/photo/contact-us-symbols-on-toy-blocks-contact-us-and-crm-concept.jpg?s=612x612&w=0&k=20&c=QZUO3M1G7NfrDhoWCN3kzvh9IWOz1Nmopeb90nnqOWg=" alt="" style={{ width: '450px' }} />
+              <img className='my-5 mx-0' src={img} alt="" style={{ width: '450px' }} />
 
 
             </div>

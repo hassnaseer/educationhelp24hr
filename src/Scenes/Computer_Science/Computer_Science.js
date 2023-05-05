@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../../Images/student-1.png'
 import img1 from '../../Images/92099655_114094236915126_2046583248330424320_n-768x397.jpg'
+import img2 from '../../Images/Computer-Science.png'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
 
@@ -21,7 +22,7 @@ function Computer_Science() {
                                 all of whom are advanced in their fields and highly qualified to instruct you.</p>
                         </div>
                         <div class="col">
-                            <img src="https://media.istockphoto.com/id/1383963898/photo/technology-icons-transfer-data-through-programming-codes.jpg?s=612x612&w=0&k=20&c=-K8oYVKXJszSVUgTLcRLn1zeNDhNFmf3Fyj3ZkzGdnI=" class="img-fluid my-4" alt="..." />
+                            <img src={img2} class="img-fluid my-4" alt="..." />
                         </div>
                     </div>
                 </div>

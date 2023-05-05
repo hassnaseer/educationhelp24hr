@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../Images/Project-Management-Assignment-Help-in-India-removebg-preview.png'
+import img from '../../Images/Chemistry.png'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
 
@@ -13,16 +13,16 @@ function Chemistry() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Chemistry Assignment
+                            <h1 className='mx-5 my-2' style={{ color: 'white' }}> <b> Chemistry Assignment
 
 
                             </b></h1>
-                            <p className='mx-5' style={{ color: 'white' }}>Don’t worry we are hear
+                            <p className='mx-5 my-5' style={{ color: 'white' }}>Don’t worry we are hear
 
                             </p>
                         </div>
                         <div class="col">
-                            <img src="https://media.istockphoto.com/id/1467974737/photo/environment-education-and-science-concept-with-perspective-view-on-white-chemical-molecule.jpg?s=612x612&w=0&k=20&c=eN_A712R2EGhiYAJG4nXLryO9nfJcFl8MhjM4nquAQ8=" class="img-fluid my-4" alt="..." />
+                            <img src={img} class="img-fluid my-5" alt="..." />
 
                         </div>
                     </div>

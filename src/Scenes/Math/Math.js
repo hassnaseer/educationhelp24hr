@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../Images/Project-Management-Assignment-Help-in-India-removebg-preview.png'
+import img from '../../Images/Math.png'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
 
@@ -13,16 +13,16 @@ function Math() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Math Assignment
+                            <h1 className='mx-5 my-2' style={{ color: 'white' }}> <b> Math Assignment
 
 
                             </b></h1>
-                            <p className='mx-5' style={{ color: 'white' }}>Don’t worry we are hear
+                            <p className='mx-5 my-5' style={{ color: 'white' }}>Don’t worry we are hear
 
                             </p>
                         </div>
                         <div class="col">
-                            <img src="https://media.istockphoto.com/id/1395886334/photo/mathematical-formulas-on-blue-background-math-concept-3d-rendering.jpg?s=612x612&w=0&k=20&c=Egp0VNJOF1Apmm7dbZcKADS95N4VNSx_GrI6kkepukk=" class="img-fluid my-4" alt="..." />
+                            <img src={img} class="img-fluid my-5" alt="..." />
 
                         </div>
                     </div>

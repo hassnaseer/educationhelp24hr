@@ -16,18 +16,18 @@ function Reviews() {
       <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
         <div class="container my-2">
           <div class="row">
-            <div class="col-9">
+            <div class="col-9 my-5">
               <div class="container my-lg-5"></div>
-              <h1 style={{ color: 'white' }}> <b> Honest User Testimonials
+              <h1 className='text-white my-5'> <b> Honest User Testimonials
 
               </b></h1>
-              <p style={{ color: 'white' }}>Find out how our customers feel about working
+              <p className='text-white my-2'>Find out how our customers feel about working
                 with us.
               </p>
               <img src={img1} class="img-fluid" alt="..." />
             </div>
             <div class="col">
-              <img src={img} class="img-fluid" alt="..." />
+              <img src={img} class="img-fluid my-5" alt="..." />
               <img src="/3d-illustration-colorful-assignment-report-card-png-removebg-preview.png" alt="" />
             </div>
           </div>

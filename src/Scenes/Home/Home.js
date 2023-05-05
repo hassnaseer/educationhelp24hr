@@ -49,12 +49,12 @@ function Home() {
                 </div>
             </div>
             </div> */}
-            <div class=" a jumbotron jumbotron-fluid" >
+            <div class="background jumbotron jumbotron-fluid" >
 
                 <div class="container my-4">
                     <div class="row mx-0">
-                        <div class="col"><br /><br />
-                            <h1 class="my-3 display-6 text-white"> <b> Facing Difficulties With Your <br />Online
+                        <div class="col pt-4">
+                            <h1 class="my-5 display-6 text-white"> <b> Facing Difficulties With Your <br />Online
                                 Exams/Assignments?
                             </b></h1><h4 className="text-effect text-left" >We offer 50% discounts</h4>
                             <h4 className='my-4 text-white'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
@@ -62,14 +62,12 @@ function Home() {
                                 <b> Take A
                                     Tour</b></button></p>
                         </div>
-                        <div class="col-md-auto">
+                        <div class="col text-center">
                             <img className='my-5' src="https://www.asignmenthelp.com/img/sale-bag.webp" alt="" style={{
                                 width: '350px'
                             }} />
 
 
-                        </div>
-                        <div class="col col-lg-2">
                         </div>
                     </div>
 

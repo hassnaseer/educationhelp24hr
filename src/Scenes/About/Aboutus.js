@@ -37,13 +37,13 @@ function About() {
                 <Row>
                     <Col>
                         <div className="container text-justify">
-                            <div className='my-5' >
-                                <p class="h1">
-                                    About Us </p>
-                                <p> With their hectic schedules, university students need prompt support, and one of the services we provide for them is managing their statistics & programming assignments, homework, and projects. The Statistics Assignment Help is one such entity designed with the student’s busy schedule in mind. We put our efforts into offering high-quality statistics solutions to all our students so that they can get their desired grades. We give our clients exceptional statistics expert assistance so they may complete their academic assignments successfully. We have experts for 90+ statistical tools including SPSS, SAS, Python, R Programming, Excel, SQL, STATA, Tableau, Mintab etc. With data science, big data and machine learning algorithms gaining importance in college curriculum, we ensure that our statistics assignment experts are updated with the latest courses & curriculum.
-                                </p>
-                            </div>
+
+                            <p class="h1">
+                                About Us </p>
+                            <p> With their hectic schedules, university students need prompt support, and one of the services we provide for them is managing their statistics & programming assignments, homework, and projects. The Statistics Assignment Help is one such entity designed with the student’s busy schedule in mind. We put our efforts into offering high-quality statistics solutions to all our students so that they can get their desired grades. We give our clients exceptional statistics expert assistance so they may complete their academic assignments successfully. We have experts for 90+ statistical tools including SPSS, SAS, Python, R Programming, Excel, SQL, STATA, Tableau, Mintab etc. With data science, big data and machine learning algorithms gaining importance in college curriculum, we ensure that our statistics assignment experts are updated with the latest courses & curriculum.
+                            </p>
                         </div>
+
                     </Col>
                     <Col>
                         <div className="container text-justify">
@@ -54,7 +54,7 @@ function About() {
                     </Col>
 
                 </Row>
-            </div>
+            </div >
             <div className="container d-flex justify-content-center">
                 <div className="row">
                     <div className="col text-center">
@@ -74,22 +74,22 @@ function About() {
                 <div className="row">
                     <div className="col my-4 mx-5">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-sub.png" class="img-fluid" alt="Responsive image" />
-                        <h3>93+</h3>
+                        <h3 className='my-3'>93+</h3>
                         <h5>Subjects</h5>
                     </div>
                     <div className="col my-4 mx-5">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-exp.png" class="img-fluid" alt="Responsive image" />
-                        <h3>957+</h3>
+                        <h3 className='my-3'>957+</h3>
                         <h5>Qualified Experts</h5>
                     </div>
                     <div className="col my-4 mx-5">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-stu.png" class="img-fluid" alt="Responsive image" />
-                        <h3>14,894+</h3>
+                        <h3 className='my-3'>14,894+</h3>
                         <h5>Registered Students</h5>
                     </div>
                     <div className="col my-4 mx-5">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-del.png" class="img-fluid" alt="Responsive image" />
-                        <h3>75,892+</h3>
+                        <h3 className='my-3'>75,892+</h3>
                         <h5>Order Delivered</h5>
                     </div>
                 </div>

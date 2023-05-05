@@ -23,6 +23,22 @@ function Thesis() {
                     </div>
                 </div>
             </div> */}
+            {/* <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
+                <div class="container my-4">
+                    <div class="row mx-0">
+                        <div class="col my-3 pt-4">
+                            <h1 className='my-4 display-6 text-white' > <b> Want Help In Thesis
+
+                            </b></h1>
+                            <p className='my-5 pt-5 text-white' >Don't worry We will help You.
+                            </p>
+                        </div>
+                        <div class="col text-center my-2">
+                            <img src="https://media.istockphoto.com/id/1367899897/photo/group-of-people-meeting-with-technology-and-paperwork.jpg?s=612x612&w=0&k=20&c=JXz4eyFIMuCJPSv-oRqdB_4ATzQbNU21vKvEU68t1_c=" class="img-fluid my-5" alt="..." width={'65%'} />
+                        </div>
+                    </div>
+                </div>
+            </div> */}
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">

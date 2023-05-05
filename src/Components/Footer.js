@@ -60,9 +60,6 @@ function Footer() {
                     </div>
                     <div class="col">
                         <h1 className='text-dark'><b>Contact</b></h1>
-
-
-
                         <h6><img src={img1} alt="" /><Link to="tel:+15645446567" >+ 1 564-544-6567
                         </Link></h6>
                         <h6><img src={img2} alt="" /><Link to="https://chatwith.io/s/642c1d420fe9d" target="_blank"
