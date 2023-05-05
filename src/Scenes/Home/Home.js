@@ -53,11 +53,12 @@ function Home() {
 
                 <div class="container my-4">
                     <div class="row mx-0">
-                        <div class="col pt-4">
-                            <h1 class="my-5 display-6 text-white"> <b> Facing Difficulties With Your <br />Online
+                        <div class="col my-5 pt-4">
+                            <h1 class="my-3 display-6 text-white"> <b className='my-2'> Facing Difficulties With Your <br />Online
                                 Exams/Assignments?
-                            </b></h1><h4 className="text-effect text-left" >We offer 50% discounts</h4>
-                            <h4 className='my-4 text-white'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
+                            </b></h1>
+                            <h4 className="text-effect text-left ">We offer 50% discounts</h4>
+                            <h4 className='my-3 text-white'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
                             <p class="lead"><button type="button" style={{ borderRadius: '50px' }} class="btn btn-outline-light">
                                 <b> Take A
                                     Tour</b></button></p>

@@ -33,11 +33,11 @@ function Quizez() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-4">
                     <div class="row mx-0">
-                        <div class="col pt-4">
-                            <h1 className='my-5 display-6 text-white' > <b> Face difficulty in solve <br /> your class Quiz
+                        <div class="col-9 pt-4">
+                            <h1 className='my-2 mx-5 display-6 text-white' > <b> Face difficulty in solve <br /> your class Quiz
 
                             </b></h1>
-                            <p className='my-4 text-white' >Don’t Worry we will help you in solve your quiz
+                            <p className='my-2 mx-5 text-white' >Don’t Worry we will help you in solve your quiz
                             </p>
                         </div>
                         <div class="col text-center">

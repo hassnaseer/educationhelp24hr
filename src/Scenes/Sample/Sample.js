@@ -16,12 +16,12 @@ function Sample() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b>Our Best Graphic Design Solution
+                            <h1 className='text-white' > <b>Our Best Graphic <br/> Design Solution
 
                             </b></h1>
                         </div>
                         <div class="col">
-                            <img src={img} class="img-fluid" alt="..." />
+                            <img src={img} class="img-fluid my-4" alt="..." />
 
                         </div>
                     </div>
