@@ -16,12 +16,12 @@ function Assignment_Solution() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9 my-4">
+                        <div class="col-lg-9 my-4">
                             <div class="container my-lg-5"></div>
                             <h1 className='text-white '> <b> Our Best Sample Assignment <br /> Solution  for Our Students!
                             </b></h1>
                         </div>
-                        <div class="col">
+                        <div class="col-lg-3 text-center">
                             <img src={img} class="img-fluid my-4" alt="..." />
 
                         </div>
@@ -31,10 +31,10 @@ function Assignment_Solution() {
             <br /><br />
             <div class="container text-center">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6">
                         <img src={img1} class="img-fluid" alt="..." />
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <div class="container my-lg-5"></div>
                         <h1><b> Coding Solution</b></h1>
                         <p>Our best Coding solution for our client and he was happy and satisfied from our response. Our
@@ -44,7 +44,7 @@ function Assignment_Solution() {
             </div><br /><br />
             <div class="container text-center">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6">
                         <div class="container my-lg-5"></div>
                         <h1><b> English Essay</b></h1>
                         <p>OUR ENGLISH ESSAY WORK</p>
@@ -61,10 +61,10 @@ function Assignment_Solution() {
             </div><br /><br />
             <div class="container text-center">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6 ">
                         <img src={img3} class="img-fluid" alt="..." />
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <div class="container my-lg-5"></div>
                         <h1><b> Medicine</b></h1>
                         <p>Are you looking for any medical Assignment? We will help you in your services Contact us with our

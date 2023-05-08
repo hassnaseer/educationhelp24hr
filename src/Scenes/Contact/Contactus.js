@@ -44,7 +44,7 @@ function Contactus() {
 
         <div class="container my-3">
           <div class="row ">
-            <div class="col"><br /><br />
+            <div class="col-lg-6"><br /><br />
               <h1 class="my-3 mx-4 display-6 text-white"> <b> Contact Us With Our Professional!
               </b></h1><br /><br />
               <h4 className='my-4 mx-4 text-white'>
@@ -54,8 +54,9 @@ function Contactus() {
                 <b> Take A
                   Tour</b></button></p>
             </div>
-            <div class="col my-5">
-              <img className='my-5 mx-0' src={img} alt="" style={{ width: '450px' }} />
+            <div class="col-lg-6 my-5">
+              <img src={img} class="img-fluid my-4" alt="..." />
+              {/* <img className='my-5 mx-0' src={img} alt="" /> */}
 
 
             </div>

@@ -13,15 +13,15 @@ function Computer_Science() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-lg-9">
                             <div class="container my-lg-5"></div>
-                            <h1 className='mx-5' style={{ color: 'white' }}> <b>Computer Science Assignment
+                            <h1 className='mx-5 my-5' style={{ color: 'white' }}> <b>Computer Science Assignment
 
                             </b></h1>
                             <p className='mx-5' style={{ color: 'white' }}>We offer an array of different online Computer Science Assignment solution, <br />
                                 all of whom are advanced in their fields and highly qualified to instruct you.</p>
                         </div>
-                        <div class="col">
+                        <div class="col-lg-3">
                             <img src={img2} class="img-fluid my-4" alt="..." />
                         </div>
                     </div>

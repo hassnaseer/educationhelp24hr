@@ -13,7 +13,7 @@ function Management() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-lg-9">
                             <div class="container my-5"></div>
                             <h1 className='mx-5' style={{ color: 'white' }}> <b> Are you unable to solve <br /> your management Task?
 
@@ -23,7 +23,7 @@ function Management() {
 
                             </p>
                         </div>
-                        <div class="col">
+                        <div class="col-lg-3">
                             <img src={img2} class="img-fluid my-5" alt="..." />
 
                         </div>

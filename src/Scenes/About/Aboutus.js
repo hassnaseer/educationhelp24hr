@@ -35,7 +35,7 @@ function About() {
 
             <div className="container">
                 <Row>
-                    <Col>
+                    <Col lg={6}>
                         <div className="container text-justify">
 
                             <p class="h1">
@@ -45,7 +45,7 @@ function About() {
                         </div>
 
                     </Col>
-                    <Col>
+                    <Col lg={6}>
                         <div className="container text-justify">
                             <div className='my-5' >
                                 <img className='my-5' src="https://media.istockphoto.com/id/1480802079/photo/contact-us-or-the-customer-support-connect-man-using-showing-and-touching-on-virtual-screen.jpg?s=612x612&w=0&k=20&c=jTMmrd3LN7hpSvvCIOerThoaUldtghpQjAfc46HaT9s=" width={'450'} />
@@ -57,13 +57,13 @@ function About() {
             </div >
             <div className="container d-flex justify-content-center">
                 <div className="row">
-                    <div className="col text-center">
+                    <div className="col-md-6 text-center">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/vision.png" class="img-fluid" alt="Responsive image"></img>
                         <h3 className='text-center'>Vision</h3>
                         <p className='text-center'>Teach each student to organize, simplify and comprehend data.</p>
                     </div>
 
-                    <div className="col text-center">
+                    <div className="col-md-6 text-center">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/mission.png" class="img-fluid" alt="Responsive image"></img>
                         <h3 className='text-center'>Mission</h3>
                         <p className='text-center'>To develop knowledge and intellect of statistics students thus helping them to pursue productive and satisfying career.</p>
@@ -72,22 +72,22 @@ function About() {
             </div>
             <div className="container" style={{ backgroundColor: "#f0f0f0", width: '100%' }}>
                 <div className="row">
-                    <div className="col my-4 mx-5">
+                    <div className="col-md-3 my-4 text-center ">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-sub.png" class="img-fluid" alt="Responsive image" />
                         <h3 className='my-3'>93+</h3>
                         <h5>Subjects</h5>
                     </div>
-                    <div className="col my-4 mx-5">
+                    <div className="col-md-3 my-4  text-center">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-exp.png" class="img-fluid" alt="Responsive image" />
                         <h3 className='my-3'>957+</h3>
                         <h5>Qualified Experts</h5>
                     </div>
-                    <div className="col my-4 mx-5">
+                    <div className="col-md-3 my-4 text-center ">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-stu.png" class="img-fluid" alt="Responsive image" />
                         <h3 className='my-3'>14,894+</h3>
                         <h5>Registered Students</h5>
                     </div>
-                    <div className="col my-4 mx-5">
+                    <div className="col-md-3 my-4 text-center ">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-del.png" class="img-fluid" alt="Responsive image" />
                         <h3 className='my-3'>75,892+</h3>
                         <h5>Order Delivered</h5>
@@ -96,7 +96,7 @@ function About() {
             </div>
             <div className="container my-4">
                 <div class="container-fluid ">
-                    <h1 className='text-center '> Here you find us!</h1><br/>
+                    <h1 className='text-center '> Here you find us!</h1><br />
                     <div class="map-responsive ">
                         <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=City Star Shopping Center, 51-B, Main Maulana Shaukat Ali Rd, Township Block 1 Sector B 1 Lahore, Punjab 54770, Pakistan" width="600" height="450" frameborder="0" style={{ border: '0' }} allowfullscreen></iframe>
                     </div>

@@ -42,17 +42,17 @@ function Thesis() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-lg-9">
                             <div class="container my-lg-5"></div>
-                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Want Help In Thesis
+                            <h1 className='mx-5 my-5' style={{ color: 'white' }}> <b> Want Help In Thesis
 
                             </b></h1>
                             <p className='mx-5' style={{ color: 'white' }}>Don't worry We will help You.
                             </p>
                         </div>
-                        <div className="col">
+                        <div className="col-lg-3">
                             <img src="https://media.istockphoto.com/id/1367899897/photo/group-of-people-meeting-with-technology-and-paperwork.jpg?s=612x612&w=0&k=20&c=JXz4eyFIMuCJPSv-oRqdB_4ATzQbNU21vKvEU68t1_c="
-                                class="img-fluid my-4" alt="..." />
+                                class="img-fluid my-5" alt="..." />
                         </div>
 
 

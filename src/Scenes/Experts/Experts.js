@@ -18,14 +18,14 @@ function Experts() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9 my-4">
+                        <div class="col-lg-6 my-4">
                             <div class="container my-lg-5"></div>
-                            <h1 className='text-white mx-5 my-4'> <b> Meet With Our Expert Team <br />
+                            <h1 className='text-white mx-5 my-4'> <b> Meet With Our Expert Team
                                 Professionals in their Field
                             </b></h1>
                         </div>
-                        <div class="col">
-                            <img src={img} class="img-fluid my-4" alt="..." />
+                        <div class="col-lg-6 text-center ">
+                            <img src={img} class="img-fluid my-4" alt="..." width={'300px'} />
 
                         </div>
                     </div>
@@ -87,7 +87,7 @@ function Experts() {
             </div>
             <div class="container">
                 <div class="row mx-5">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 ">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://allassignmentexperts.com/img/experts/19.png" alt="" />
@@ -103,7 +103,7 @@ function Experts() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4  ">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://allassignmentexperts.com/img/experts/31.png" alt="" />
@@ -119,7 +119,7 @@ function Experts() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 ">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://allassignmentexperts.com/img/experts/28.png" alt="" />
@@ -139,7 +139,7 @@ function Experts() {
             </div><br />
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 ">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://allassignmentexperts.com/img/experts/52.png" alt="" />
@@ -155,7 +155,7 @@ function Experts() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 ">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://allassignmentexperts.com/img/experts/66.png" alt="" />
@@ -171,7 +171,7 @@ function Experts() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 ">
                         <div class="our-team">
                             <div class="pic">
                                 <img src="https://allassignmentexperts.com/img/experts/42.png" alt="" />

@@ -12,18 +12,18 @@ function Physics() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9 my-4">
+                        <div class="col-lg-9 my-4">
                             <div class="container my-5"></div>
-                            <h1 className='mx-5 my-2' style={{ color: 'white' }}> <b> Physics Assignment
+                            <h1 className='mx-5 my-5 text-white '  > <b> Physics Assignment
 
 
                             </b></h1>
-                            <p className='mx-5 my-5' style={{ color: 'white' }}>Don’t worry we are hear
+                            <p className='mx-5 my-5  text-white' >Don’t worry we are hear
 
                             </p>
                         </div>
-                        <div class="col">
-                            <img src={img2} class="img-fluid my-3" alt="..." />
+                        <div class="col-lg-3 text-center">
+                            <img src={img2} class="img-fluid my-5" alt="..." />
 
                         </div>
                     </div>

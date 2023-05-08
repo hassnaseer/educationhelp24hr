@@ -47,8 +47,8 @@ function Paper() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row my-2">
-                        <div class="col-9">
-                            <div class="container my-4"></div>
+                        <div class="col-lg-9">
+                            <div class="container my-5"></div>
                             <h1 style={{ color: 'white' }}> <b> Hire a Helper to solve <br /> your exam
 
                             </b></h1>
@@ -56,9 +56,9 @@ function Paper() {
                                 working Passionate team.
                             </p>
                         </div>
-                        <div className="col">
+                        <div className="col-lg-3">
                             <img src="https://media.istockphoto.com/id/1389157460/photo/newspaper-and-digital-tablet-on-wooden-table.jpg?s=612x612&w=0&k=20&c=CNKIHIEE4HnEnqDpUCyvnEfbf8nn90jRfX6TmhbGBxc="
-                                class="img-fluid my-4" alt="..." />
+                                class="img-fluid my-5" alt="..." />
                         </div>
 
 

@@ -1,5 +1,6 @@
 import * as React from 'react';
-import Rating from '../Components/Rating';
+import { Rating } from '@smastrom/react-rating'
+import '@smastrom/react-rating/style.css'
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -15,14 +16,18 @@ function GroupExample() {
         <>
             <Container>
                 <Row>
-                    <Col><div class="card  mb-3" style={{ maxWidth: '18rem' }}>
+                    <Col lg={4}><div class="card  mb-3" style={{ maxWidth: '18rem' }}>
                         <div class="card-header">
                             <div class="row">
 
                                 <div class="col-3"><div class="pic">
-                            <img src={img}/>
-                        </div></div><br />
-                                <div class="col-7">Cust.ID: <br /><Rating /><br />
+                                    <img src={img} />
+                                </div></div><br />
+                                <div class="col-7">Cust.ID: <br /><Rating
+                                    style={{ maxWidth: 100 }}
+                                    value={5}
+                                    readOnly
+                                />
                                     <b>Canada</b>
                                 </div>
                             </div>
@@ -39,13 +44,17 @@ function GroupExample() {
                             <small className="text-muted">Written by: <b> Dipiya Jain </b></small>
                         </Card.Footer>
                     </div></Col>
-                    <Col><div class="card  mb-3" style={{ maxWidth: '18rem' }}>
+                    <Col lg={4}><div class="card  mb-3" style={{ maxWidth: '18rem' }}>
                         <div class="card-header">
                             <div class="row">
                                 <div class="col-3"><div class="pic">
-                            <img src={img1}/>
-                        </div></div><br />
-                                <div class="col-7">Cust.ID:  <br /><Rating /><br />
+                                    <img src={img1} />
+                                </div></div><br />
+                                <div class="col-7">Cust.ID:  <br /><Rating
+                                    style={{ maxWidth: 100 }}
+                                    value={5}
+                                    readOnly
+                                />
                                     <b> Australia</b>
                                 </div>
                             </div>
@@ -63,13 +72,17 @@ function GroupExample() {
                             <small className="text-muted">Written by: <b> Bhavana BP</b></small>
                         </Card.Footer>
                     </div></Col>
-                    <Col><div class="card  mb-3" style={{ maxWidth: '18rem' }}>
+                    <Col lg={4}><div class="card  mb-3" style={{ maxWidth: '18rem' }}>
                         <div class="card-header">
                             <div class="row">
                                 <div class="col-3"><div class="pic">
-                            <img src={img2}/>
-                        </div></div>
-                                <div class="col-7">Cust.ID: <Rating />
+                                    <img src={img2} />
+                                </div></div>
+                                <div class="col-7">Cust.ID: <Rating
+                                    style={{ maxWidth: 100 }}
+                                    value={5}
+                                    readOnly
+                                />
                                     <b> Australia</b>
                                 </div>
                             </div>

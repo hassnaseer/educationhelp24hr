@@ -11,14 +11,14 @@ function Calculus() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-lg-9 ">
                             <div class="container my-lg-5"></div>
                             <h1 className='mx-5 my-2' style={{ color: 'white' }}> <b> Biology Assignment
                             </b></h1>
                             <p className='mx-5 my-5' style={{ color: 'white' }}>Don’t worry we are hear
                             </p>
                         </div>
-                        <div class="col">
+                        <div class="col-lg-3 text-center">
                             <img src={img} class="img-fluid my-5" alt="..." />
                         </div>
                     </div>

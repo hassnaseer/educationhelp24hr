@@ -13,15 +13,15 @@ function Finance() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-lg-9">
                             <div class="container my-lg-5"></div>
-                            <h1 className='mx-5' style={{ color: 'white' }}> <b>Finance Assignment
+                            <h1 className='mx-5 my-5' style={{ color: 'white' }}> <b>Finance Assignment
 
                             </b></h1>
                             <p className='mx-5 my-5' style={{ color: 'white' }}>You Have to don’t worry about your assignment <span><br />We are hear to help You In your studies.</span>
                             </p>
                         </div>
-                        <div class="col">
+                        <div class="col-lg-3">
                             <img src={img2} class="img-fluid my-4" alt="..." />
                         </div>
                     </div>

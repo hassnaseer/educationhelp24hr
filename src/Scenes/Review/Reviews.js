@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar'
+import { Rating } from '@smastrom/react-rating'
+import '@smastrom/react-rating/style.css'
 import img from '../../Images/bird.png'
 import img1 from '../../Images/Capture12-removebg-preview.png'
 import img2 from '../../Images/capture 12.PNG'
@@ -7,7 +9,7 @@ import img13 from '../../Images/user.webp';
 import img14 from '../../Images/Capture12-removebg-preview.png'
 import img19 from '../../Images/Testimonials-picture.png'
 import Footer from '../../Components/Footer'
-import Rating from '../../Components/Rating'
+
 function Reviews() {
   return (
     <>
@@ -16,7 +18,7 @@ function Reviews() {
       <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
         <div class="container my-2">
           <div class="row">
-            <div class="col-9 my-5">
+            <div class="col-lg-9 my-5">
               <div class="container my-lg-5"></div>
               <h1 className='text-white my-5'> <b> Honest User Testimonials
 
@@ -26,7 +28,7 @@ function Reviews() {
               </p>
               <img src={img1} class="img-fluid" alt="..." />
             </div>
-            <div class="col">
+            <div class="col-lg-3 text-center">
               <img src={img} class="img-fluid my-5" alt="..." />
               <img src="/3d-illustration-colorful-assignment-report-card-png-removebg-preview.png" alt="" />
             </div>
@@ -42,14 +44,18 @@ function Reviews() {
         <h1><b> Our Stats Say More Than Any Words
         </b></h1><br />
       </div>
-      <div className="container">
+      <div className="container ">
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
               <div class="card-header ">
                 <div class="row">
                   <div class="col-3"><img src={img13} alt="" /></div><br />
-                  <div class="col-9">Cust.ID: <br /> <Rating /><br />
+                  <div class="col-9">Cust.ID: <br /> <Rating
+                    style={{ maxWidth: 100 }}
+                    value={4}
+                    readOnly
+                  />
                     <b>Sidney, Australia</b>
                   </div>
                 </div>
@@ -71,7 +77,11 @@ function Reviews() {
               <div class="card-header">
                 <div class="row">
                   <div class="col-3"><img src={img13} alt="" /></div><br />
-                  <div class="col-9">Cust.ID: <br /> <Rating /><br />
+                  <div class="col-9">Cust.ID: <br /> <Rating
+                    style={{ maxWidth: 100 }}
+                    value={4}
+                    readOnly
+                  />
                     <b>US</b>
                   </div>
                 </div>
@@ -93,7 +103,11 @@ function Reviews() {
               <div class="card-header">
                 <div class="row">
                   <div class="col-3"><img src={img13} alt="" /></div><br />
-                  <div class="col-9">Cust.ID: <br /> <Rating /><br />
+                  <div class="col-9">Cust.ID: <br /> <Rating
+                    style={{ maxWidth: 100 }}
+                    value={4}
+                    readOnly
+                  />
                     <b>US</b>
                   </div>
                 </div>
@@ -120,7 +134,11 @@ function Reviews() {
               <div class="card-header">
                 <div class="row">
                   <div class="col-3"><img src={img13} alt="" /></div><br />
-                  <div class="col-9">Cust.ID: <br /> <Rating /><br />
+                  <div class="col-9">Cust.ID: <br /> <Rating
+                    style={{ maxWidth: 100 }}
+                    value={5}
+                    readOnly
+                  />
                     <b>Canada</b>
                   </div>
                 </div>
@@ -142,7 +160,11 @@ function Reviews() {
               <div class="card-header">
                 <div class="row">
                   <div class="col-3"><img src={img13} alt="" /></div><br />
-                  <div class="col-9">Cust.ID: <br /> <Rating /><br />
+                  <div class="col-9">Cust.ID: <br /> <Rating
+                    style={{ maxWidth: 100 }}
+                    value={5}
+                    readOnly
+                  />
                     <b>US</b>
                   </div>
                 </div>
@@ -165,7 +187,11 @@ function Reviews() {
               <div class="card-header ">
                 <div class="row">
                   <div class="col-3"><img src={img13} alt="" /></div><br />
-                  <div class="col-9">Cust.ID: <br /> <Rating /><br />
+                  <div class="col-9">Cust.ID: <br /> <Rating
+                    style={{ maxWidth: 100 }}
+                    value={4}
+                    readOnly
+                  />
                     <b>US</b>
                   </div>
                 </div>
@@ -192,7 +218,11 @@ function Reviews() {
               <div class="card-header">
                 <div class="row">
                   <div class="col-3"><img src={img13} alt="" /></div><br />
-                  <div class="col-9">Cust.ID: <br /> <Rating /><br />
+                  <div class="col-9">Cust.ID: <br /> <Rating
+                    style={{ maxWidth: 100 }}
+                    value={4}
+                    readOnly
+                  />
                     <b>Sidney, Australia</b>
                   </div>
                 </div>
@@ -214,7 +244,11 @@ function Reviews() {
               <div class="card-header ">
                 <div class="row">
                   <div class="col-3"><img src={img13} alt="" /></div><br />
-                  <div class="col-9">Cust.ID: <br /> <Rating /><br />
+                  <div class="col-9">Cust.ID: <br /> <Rating
+                    style={{ maxWidth: 100 }}
+                    value={3}
+                    readOnly
+                  />
                     <b>Australia</b>
                   </div>
                 </div>
@@ -238,7 +272,11 @@ function Reviews() {
               <div class="card-header ">
                 <div class="row">
                   <div class="col-3"><img src={img13} alt="" /></div><br />
-                  <div class="col-9">Cust.ID: <br /> <Rating /><br />
+                  <div class="col-9">Cust.ID: <br /> <Rating
+                    style={{ maxWidth: 100 }}
+                    value={4}
+                    readOnly
+                  />
                     <b>Australia</b>
                   </div>
                 </div>
@@ -263,10 +301,10 @@ function Reviews() {
         </b></h2><br />
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6">
               <img src={img19} alt="" />
             </div>
-            <div class="col">
+            <div class="col-md-6">
               <br /><br />
               <p>Only real customers, who received a completed order, can leave a review.</p>
 

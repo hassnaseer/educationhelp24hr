@@ -142,7 +142,7 @@ function Home() {
             </div> */}
             <div class="container">
                 <div class="row ">
-                    <div class="col">
+                    <div class="col-lg-4">
                         <div class="serviceBox1 purple">
                             <h3 class="title">Share Your <br /> Requirements</h3>
                             <div class="service-content">
@@ -153,7 +153,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-4">
                         <div class="serviceBox1 purple">
                             <h3 class="title">Make Partial <br /> Payment</h3>
                             <div class="service-content">
@@ -164,11 +164,11 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-4">
                         <div class="serviceBox1 purple">
                             <h3 class="title">Receive The <br /> Delivery</h3>
                             <div class="service-content">
-                                <p class="description">Upon receipt and verification of the proof of work, kindly clear any pending payments to receive the requested service/task within the promised deadline. We understand that revisions may be necessary in assignment some cases, thus we encourage students to request revisions until they are completely satisfied with the    product.</p>
+                                <p class="description">Upon receipt and verification of the proof of work, kindly clear any pending payments to receive the requested service/task within the promised deadline. We understand that revisions may be necessary in assignment some cases, thus we encourage students to request revisions until they are completely satisfied with the product.</p>
                                 <div class="service-icon">
                                     <span>03</span>
                                 </div>
@@ -224,10 +224,10 @@ function Home() {
             </div><br />
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-6">
                         <img src={img19} alt="" />
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6">
                         <br /><br />
                         <p>Only real customers, who received a completed order, can leave a review.</p>
 

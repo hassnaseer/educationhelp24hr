@@ -19,13 +19,13 @@ function Sample_Design() {
             <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
-                        <div class="col-9">
+                        <div class="col-lg-9">
                             <div class="container my-lg-5"></div>
                             <h1 style={{ color: 'white' }}> <b>Check The Sample Of our Assignment, Projects, Task, Papers & Thesis
 
                             </b></h1>
                         </div>
-                        <div class="col">
+                        <div class="col-lg-3 text-center">
                             <img src={img} class="img-fluid" alt="..." />
 
                         </div>
@@ -37,7 +37,7 @@ function Sample_Design() {
             </div><br /> */}<br />
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <div class="card"><br />
                             <div class="text-center">
                                 <img src={img1} class="rounded" alt="..." width="50" />
@@ -51,8 +51,8 @@ function Sample_Design() {
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-6">
+                    </div><br />
+                    <div class="col-md-6">
                         <div class="card"><br />
                             <div class="text-center">
                                 <img src={img2} class="rounded" alt="..." width="50" />
@@ -67,13 +67,13 @@ function Sample_Design() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div><br />
                 </div>
             </div>
             <br />
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <div class="card"><br />
                             <div class="text-center">
                                 <img src={img3} class="rounded" alt="..." width="50" />
@@ -88,7 +88,7 @@ function Sample_Design() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <div class="card"><br />
                             <div class="text-center">
                                 <img src={img4} class="rounded" alt="..." width="50" />
