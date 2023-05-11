@@ -22,7 +22,7 @@ function GroupExample() {
 
                                 <div class="col-3"><div class="pic">
                                     <img src={img} />
-                                </div></div><br />
+                                </div></div>
                                 <div class="col-7">Cust.ID: <br /><Rating
                                     style={{ maxWidth: 100 }}
                                     value={5}

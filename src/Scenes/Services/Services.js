@@ -131,7 +131,7 @@ function Services() {
       <div style={{ backgroundColor: 'rgb(92, 97, 110)' }} ><br /><br />
         <div class="container">
           <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
+            <div class="col-lg-4">
               <div class="card h-20">
                 <div class="card-body">
                   <h5 class="card-title text-center"><b> 24/7 Help</b></h5>
@@ -139,7 +139,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4">
               <div class="card h-20">
                 <div class="card-body">
                   <h5 class="card-title text-center"><b> On Time Delivery​</b></h5>
@@ -148,10 +148,10 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-lg-4">
               <div class="card h-20">
                 <div class="card-body">
-                  <h5 class="card-title"><b> Unlimited Revision</b></h5>
+                  <h5 class="card-title text-center"><b> Unlimited Revision</b></h5>
                   <p class="card-text">Here at your satisfaction is our top priority that’s why we are happy to offer you  UNLIMITED REVISIONS  on all your orders. In order to maintain  the quality of our service, we offer for the first 60 days after delivery.</p>
                 </div>
               </div>

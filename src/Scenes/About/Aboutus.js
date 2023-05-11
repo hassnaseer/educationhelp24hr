@@ -48,7 +48,7 @@ function About() {
                     <Col lg={6}>
                         <div className="container text-justify">
                             <div className='my-5' >
-                                <img className='my-5' src="https://media.istockphoto.com/id/1480802079/photo/contact-us-or-the-customer-support-connect-man-using-showing-and-touching-on-virtual-screen.jpg?s=612x612&w=0&k=20&c=jTMmrd3LN7hpSvvCIOerThoaUldtghpQjAfc46HaT9s=" width={'450'} />
+                                <img className='my-5' src="https://media.istockphoto.com/id/1480802079/photo/contact-us-or-the-customer-support-connect-man-using-showing-and-touching-on-virtual-screen.jpg?s=612x612&w=0&k=20&c=jTMmrd3LN7hpSvvCIOerThoaUldtghpQjAfc46HaT9s=" width={'420'} />
                             </div>
                         </div>
                     </Col>
