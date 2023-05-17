@@ -94,14 +94,14 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="container my-4">
+            {/* <div className="container my-4">
                 <div class="container-fluid ">
                     <h1 className='text-center '> Here you find us!</h1><br />
                     <div class="map-responsive ">
                         <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=City Star Shopping Center, 51-B, Main Maulana Shaukat Ali Rd, Township Block 1 Sector B 1 Lahore, Punjab 54770, Pakistan" width="600" height="450" frameborder="0" style={{ border: '0' }} allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <Footer />
         </>
     )

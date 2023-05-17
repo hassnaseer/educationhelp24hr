@@ -43,7 +43,7 @@ function NoTransitionExample() {
                                 <div class="col image"><img src={img8} alt="" /></div>
                                 <div class="col image"><img src={img13} alt="" /></div>
                                 <div class="col image"><img src={img14} alt="" /></div>
-                                <div class="col image"><img src={img14} alt=""/></div>
+                                <div class="col image"><img src={img14} alt="" /></div>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -51,11 +51,11 @@ function NoTransitionExample() {
                         <div class="container my-4">
                             <div class="row">
                                 <div class="col image"><img src={img12} alt=""
-                                   /></div>
-                                <div class="col image"><img src={img1} alt=""/>
+                                /></div>
+                                <div class="col image"><img src={img1} alt="" />
                                 </div>
-                                <div class="col image"><img src={img2} alt=""/></div>
-                                <div class="col image"><img src={img3} alt=""/>
+                                <div class="col image"><img src={img2} alt="" /></div>
+                                <div class="col image"><img src={img3} alt="" />
                                 </div>
                             </div>
 
