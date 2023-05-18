@@ -11,7 +11,7 @@ function About() {
         <>
             <Navbar />
             <div class="jumbotron jumbotron-fluid">
-                <img src={img} class="img-fluid" alt="..." width={'100%'} />
+                <img src="https://t3.ftcdn.net/jpg/00/63/13/38/360_F_63133806_lIp5gzdcAkxfEyPmeyTNy9E6RzUv9wZk.jpg" class="img-fluid" alt="..."  width={'100%'}  />
             </div>
             {/* <div className="container">
                 <img src={img} class="img-fluid my-4" alt="..." width={'100%'} />
@@ -35,6 +35,14 @@ function About() {
 
             <div className="container">
                 <Row>
+                   
+                    <Col lg={6}>
+                        <div className="container text-justify">
+                            <div className='my-5' >
+                                <img className='my-5' src="https://media.istockphoto.com/id/1221653457/photo/close-up-of-a-touchscreen-social-media-concept.jpg?s=612x612&w=0&k=20&c=thcgiLGWFoRNMrMiDXDGUGPy50i9jhXhiHSy-vokyqI=" width={'420'} />
+                            </div>
+                        </div>
+                    </Col>
                     <Col lg={6}>
                         <div className="container text-justify">
 
@@ -45,17 +53,10 @@ function About() {
                         </div>
 
                     </Col>
-                    <Col lg={6}>
-                        <div className="container text-justify">
-                            <div className='my-5' >
-                                <img className='my-5' src="https://media.istockphoto.com/id/1480802079/photo/contact-us-or-the-customer-support-connect-man-using-showing-and-touching-on-virtual-screen.jpg?s=612x612&w=0&k=20&c=jTMmrd3LN7hpSvvCIOerThoaUldtghpQjAfc46HaT9s=" width={'420'} />
-                            </div>
-                        </div>
-                    </Col>
 
                 </Row>
             </div >
-            <div className="container d-flex justify-content-center">
+            {/* <div className="container d-flex justify-content-center">
                 <div className="row">
                     <div className="col-md-6 text-center">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/vision.png" class="img-fluid" alt="Responsive image"></img>
@@ -69,8 +70,8 @@ function About() {
                         <p className='text-center'>To develop knowledge and intellect of statistics students thus helping them to pursue productive and satisfying career.</p>
                     </div>
                 </div>
-            </div>
-            <div className="container" style={{ backgroundColor: "#f0f0f0", width: '100%' }}>
+            </div> */}
+            {/* <div className="container" style={{ backgroundColor: "#f0f0f0", width: '100%' }}>
                 <div className="row">
                     <div className="col-md-3 my-4 text-center ">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-sub.png" class="img-fluid" alt="Responsive image" />
@@ -93,7 +94,7 @@ function About() {
                         <h5>Order Delivered</h5>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <div className="container my-4">
                 <div class="container-fluid ">
                     <h1 className='text-center '> Here you find us!</h1><br />

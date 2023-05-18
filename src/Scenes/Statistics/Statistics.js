@@ -9,7 +9,7 @@ function Statistics() {
         <>
             <Navbar /><br />
             <div class="container my-2"></div>
-            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
+            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#0f80de' }}>
                 <div class="container my-2">
                     <div class="row">
                         <div class="col-lg-9">
@@ -21,7 +21,7 @@ function Statistics() {
                             </p>
                         </div>
                         <div class="col-lg-3 text-center">
-                            <img src={img2} class="img-fluid my-5" alt="..." />
+                            <img src="https://media.istockphoto.com/id/1425235289/photo/data-analyst-working-on-business-analytics-dashboard-with-charts-metrics-and-kpi-to-analyze.jpg?s=612x612&w=0&k=20&c=fKMxXdm1SrZE9unWyLWUPPzK6RTy8OsBBaKWcpH0O4s=" class="img-fluid my-5" alt="..." />
 
                         </div>
                     </div>
@@ -41,16 +41,16 @@ function Statistics() {
                         <p class=" mx-5 ">Statistics is the science and practice of developing human knowledge through the use of empirical data expressed in quantitative form. Statistics is normally considered a distinct mathematical science instead of a branch of mathematics. Statistical analysis involves the process of collecting and analyzing data and then summarizing the data into a numerical form. Statistics provides tools for prediction and forecasting through the use of data and statistical models. Statistics is applicable to a wide variety of academic disciplines such as Finance, Insurance, and Economics. The appearance of advanced statistics techniques and software has widened the scope of application of Statistics to further areas.</p>
                         <p class="h3 mx-5">Statistics Homework Help</p>
                         <p class=" mx-5 ">f you are seeking for statistics assignment help then we are available 24X7 for you. Our statistics assignment tutors are qualified experts having a good hand on various statistics problems and applications. We also assist student in their statistics dissertations and projects involving collection of economic data and analyzing it through the use of softwares.</p>
-                        <p class="h3 mx-5">Why Choose Tutorhelpdesk.com for Statistics Assignment Writing?</p>
+                        {/* <p class="h3 mx-5">Why Choose Tutorhelpdesk.com for Statistics Assignment Writing?</p>
                         <p class=" mx-5 ">The prominent features of our Statistics Homework help include:
                             <li>Practising statisticians and actuarians to help you: Our panel of tutors possess practical knowledge of statistics, so that their solutions are right on the mark</li>
                             <li>Comfortable with SAS, MATLAB, Minitab, SPSS, STATA, R and other prevalent tools which help provide answers using the prescribed softwares.</li>
                             <li>Experience which allows us to turn around original, accurate, plagiarism free statistics assignment solutions within hours!</li>
-                        </p>
+                        </p> */}
                     </div>
                 </div >
             </div>
-            <div className="container">
+            {/* <div className="container">
                 <div className='row '>
                     <div className="col">
                         <p class="h5 mx-5">We offer Statistics Assignment help in following areas:</p>
@@ -66,7 +66,7 @@ function Statistics() {
                         </p>
                     </div>
                 </div >
-            </div>
+            </div> */}
             <Footer />
         </>
     )

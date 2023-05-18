@@ -10,7 +10,7 @@ function Computer_Science() {
         <>
             <Navbar /><br />
             <div class="container my-2"></div>
-            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
+            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#0f80de' }}>
                 <div class="container my-2">
                     <div class="row">
                         <div class="col-lg-9">
@@ -22,7 +22,7 @@ function Computer_Science() {
                                 all of whom are advanced in their fields and highly qualified to instruct you.</p>
                         </div>
                         <div class="col-lg-3">
-                            <img src={img2} class="img-fluid my-4" alt="..." />
+                            <img src="https://media.istockphoto.com/id/1401460590/photo/businessman-working-on-laptop-with-document-management-icon.jpg?s=612x612&w=0&k=20&c=o8Ci6F_YCWFlKE2Yr6A2wbDvrZRwSB3YssLakLkrFBo=" class="img-fluid my-4" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -65,13 +65,13 @@ function Computer_Science() {
                         <p class="h1 mx-5">Computer Science</p>
                         <p class=" mx-5">The term Computer Science was used for the first time in a research article in 1959 at the Association for Computing Machinery (ACM). It was given by Louis Fein. Computer Science is the science of computation through computers.  The growth of computer technology and the constant innovations in computers has created the robust discipline of Computer Science. It is a structured systematic study of use and processing through computers.</p>
                         <p class=" mx-5">The history of the subject dates back to the invention of the modern day digital computer. Blaise Pascal is considered to be the inventor of the first mechanical computer. Charles Babbage was the inventor of the first automatic mechanical calculator which he eventually developed into Analytical engine.  The basis of Computer Science is the development of Programming Language. Programming language helped in the evaluation of the processes and handling of complex situations mechanically with the help of computers.</p>
-                        <p className='mx-5'>Computer Science is an enabler to efficiency time and resource optimization.  No discipline today is complete without computer Science.  The language of the subject is mathematics and all the developments in the subject are dependent on the development in mathematical models. All the logical activities are possible with the help of computers today. We at Tutorhelpdesk provide assistance to computer students in all types of programming language through computer science assignment help service.</p>
+                        {/* <p className='mx-5'>Computer Science is an enabler to efficiency time and resource optimization.  No discipline today is complete without computer Science.  The language of the subject is mathematics and all the developments in the subject are dependent on the development in mathematical models. All the logical activities are possible with the help of computers today. We at Tutorhelpdesk provide assistance to computer students in all types of programming language through computer science assignment help service.</p> */}
 
                     </div>
 
                 </div >
             </div>
-            <div className="container">
+            {/* <div className="container">
                 <div className='row '>
                     <div className="col">
                         <p class="h3 mx-5">We offer computer science assignment help in following areas:</p>
@@ -100,7 +100,7 @@ function Computer_Science() {
                     </div>
 
                 </div >
-            </div>
+            </div> */}
             <Footer />
         </>
     )

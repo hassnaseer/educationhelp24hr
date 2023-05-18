@@ -16,6 +16,7 @@ import img from '../../Images/photo-1607746747627-8f2311dac2bf.avif'
 // import img9 from '../Images/download (6).png';
 // import img10 from '../Images/download (7).png';
 // import img11 from '../Images/download (10).png';
+import img1 from '../../Images/Untitled.png'
 import img13 from '../../Images/user.webp';
 import img14 from '../../Images/capture 12.PNG'
 import img15 from '../../Images/download.jpeg'
@@ -35,6 +36,9 @@ function Home() {
             <Navbar />
 
             <div class="container my-2"></div>
+            <div class="jumbotron jumbotron-fluid">
+                <img src="https://www.assignnmentinneed.com/wp-content/uploads/2020/03/blog4256.png" class="   " alt="..." width={'100%'} />
+            </div>
             {/* <div className="f" >
                 <div className="row mx-5">
                     <div className="col-6 my-5">
@@ -49,35 +53,36 @@ function Home() {
                 </div>
             </div>
             </div> */}
-            <div class="background jumbotron jumbotron-fluid" >
+            {/* <div class="background jumbotron jumbotron-fluid" > */}
 
-                <div class="container my-4">
-                    <div class="row mx-0">
-                        <div class="col my-5 pt-4">
-                            <h1 class="my-3 display-6 text-white"> <b className='my-2'> Facing Difficulties With Your <br />Online
+                {/* <div class="container my-4"> */}
+                    {/* <div class="row mx-0"> */}
+                        {/* <div class="col my-5 pt-4"> */}
+                           
+                            {/* <h1 class="my-3 display-6 text-white"> <b className='my-2'> Facing Difficulties With Your <br />Online
                                 Exams/Assignments?
-                            </b></h1>
-                            <h4 className="text-effect text-left ">We offer 50% discounts</h4>
-                            <h4 className='my-3 text-white'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
-                            <p class="lead"><button type="button" style={{ borderRadius: '50px' }} class="btn btn-outline-light">
+                            </b></h1> */}
+                            {/* <h4 className="text-effect text-left ">We offer 50% discounts</h4> */}
+                            {/* <h4 className='my-3 text-white'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4> */}
+                            {/* <p class="lead"><button type="button" style={{ borderRadius: '50px' }} class="btn btn-outline-light">
                                 <b> Take A
-                                    Tour</b></button></p>
-                        </div>
-                        <div class="col text-center">
+                                    Tour</b></button></p> */}
+                        {/* </div> */}
+                        {/* <div class="col text-center">
                             <img className='my-5' src="https://www.asignmenthelp.com/img/sale-bag.webp" alt="" style={{
                                 width: '350px'
                             }} />
 
 
-                        </div>
-                    </div>
+                        </div> */}
+                    {/* </div> */}
 
-                </div>    <br />
-            </div>
+                {/* </div>    <br /> */}
+            {/* </div> */}
 
-            <marquee width="100%" direction="left" className="blink">
+            {/* <marquee width="100%" direction="left" className="blink">
                 For the solution of your homework or assignment please contac us with our official email & WhatsApp.
-            </marquee>
+            </marquee> */}
             <div className="container my-4">
                 <Crousals />
             </div><br /><br />
@@ -112,17 +117,17 @@ function Home() {
                 <h4 className='h'>
                     <b>Receive Completed Solution</b>
                 </h4>
-                <p className='p'>Our <b> assignment help </b> experts start writing the papers
+                <p className='p'>Our <b> EducationHelp24hr </b> experts start writing the papers
                     as soon
                     as the payment is done. The writers work fast to complete the task within the deadline. You will receive
                     your <b> assignment </b> in your registered account prior to the submission deadline.
                 </p>
             </div>
-            <div class="container">
+            {/* <div class="container">
                 <h1 className='text-center'>
                     <a class="btn btn-outline-danger" href="/" role="button">Order Now</a>
                 </h1>
-            </div>
+            </div> */}
 
             {/* <div class="container my-4">
                 <div class="row">
@@ -140,7 +145,7 @@ function Home() {
                     </div>
                 </div>
             </div> */}
-            <div class="container">
+            {/* <div class="container">
                 <div class="row ">
                     <div class="col-lg-4">
                         <div class="serviceBox1 purple">
@@ -176,7 +181,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div><br />
+            </div> */}
+            <br />
             {/* <div>
                 <h1 className='text-center'>Strategy planning</h1>
                 <p className='text-center' >When we Get any Task or assignment we work and research on it with different
@@ -208,7 +214,7 @@ function Home() {
             {/* <div class="container">
                 <h3 className='text-center'>Get in touch with us!</h3>
             </div> */}
-            <div class="a jumbotron jumbotron-fluid"><br />
+            {/* <div class="a jumbotron jumbotron-fluid"><br />
                 <div class="container">
                     <h3 className='text-center my-2'>Why Students from All Across The Globe Choose US?</h3>
                     <p>When it comes to assignment tutoring services, students may have many options to choose from. However, when they choose us, they can be confident that they are getting the best in the industry. We offer bespoke solutions to all their academic needs, ensuring that they receive the support they need to succeed in their academic pursuits.</p>
@@ -218,16 +224,13 @@ function Home() {
 
 
                 </div>
-            </div>
+            </div> */}
             <div class="container my-4">
                 <h3 className='text-center text-dark' >What Makes Our Reviews Trustworthy</h3>
             </div><br />
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <img src={img19} alt="" />
-                    </div>
-                    <div class="col-lg-6">
+                <div class="col-lg-6">
                         <br /><br />
                         <p>Only real customers, who received a completed order, can leave a review.</p>
 
@@ -236,6 +239,10 @@ function Home() {
 
                         <p> We listen to what you say: your reviews help us to control the work of our writers.</p>
                     </div>
+                    <div class="col-lg-6">
+                    <img src="https://media.istockphoto.com/id/1337669524/photo/we-want-your-feedback-word-with-speech-bubble.jpg?s=612x612&w=0&k=20&c=zCgnfhEcVFIr9iIJpqY5s0eg69gwTjQGO58XzzsKX8I=" class="img-fluid" alt="Responsive image"/>
+                    </div>
+                   
                 </div>
             </div>
             <Footer />

@@ -25,13 +25,13 @@ function NoTransitionExample() {
                         <div class="container my-4">
 
                             <div class="row">
-                                <div class="col image"><img src={img4} alt="" />
+                                <div class="col image"><img src="https://miro.medium.com/v2/resize:fit:1400/1*ijm3fdsPs-6yuvhMbJp0Gw.png" alt="" />
                                 </div>
-                                <div class="col image"><img src={img5} alt="" />
+                                <div class="col image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIq9Yq3WdAC3BtDi4F6vqNq-746De2ucwWLeY0GsZSfPRsvYtVrt1Btk6UWTg-dnU1gZU&usqp=CAU"alt="" />
                                 </div>
-                                <div class="col image"><img src={img6} alt="" />
+                                <div class="col image"><img src="https://miro.medium.com/v2/resize:fit:1400/1*T14D4D0BHlkZpFystK_GqQ.png" alt="" />
                                 </div>
-                                <div class="col image"><img src={img7} alt="" />
+                                <div class="col image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5sOc7XWZTc7s7k3mHFjBXXhtnWLBl9sDD2pAV-CUHW7W6cD9nHY5KUDK3edDoEhz4IDY&usqp=CAU" alt="" />
                                 </div>
                             </div>
 
@@ -40,22 +40,22 @@ function NoTransitionExample() {
                     <Carousel.Item>
                         <div class="container my-4">
                             <div class="row">
-                                <div class="col image"><img src={img8} alt="" /></div>
-                                <div class="col image"><img src={img13} alt="" /></div>
-                                <div class="col image"><img src={img14} alt="" /></div>
-                                <div class="col image"><img src={img14} alt="" /></div>
+                                <div class="col image"><img src="https://miro.medium.com/v2/resize:fit:1400/1*5eT7cM3edqYnHTdmDz2PgA.png" alt="" /></div>
+                                <div class="col image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpkL6NiTkBijBb4XCG_qRVBNRDjbn116Jfdp8x9yy_4Us1uEmBKtIx3qur2d_mlP_NdBs&usqp=CAU" alt="" /></div>
+                                <div class="col image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5cYApiQUXAQmDRG3YGr19UhWLrQ-fY9ZVIQVD76ybQzQWJ6nmlVuBVRWwsGIu-QyGC4&usqp=CAU" alt="" /></div>
+                                <div class="col image"><img src="   https://images.squarespace-cdn.com/content/v1/591849d0e3df28cc11f713d2/1603278593559-X7ATXX1NEWC55D0XQKBX/uni_logo_strathclyde_glasgow_1280_510.jpg" alt="" /></div>
                             </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div class="container my-4">
                             <div class="row">
-                                <div class="col image"><img src={img12} alt=""
+                                <div class="col image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Mzbxmln8JzT5OTfHFjS0PY_Yxs-LFGMnCw&usqp=CAU" alt=""
                                 /></div>
-                                <div class="col image"><img src={img1} alt="" />
+                                <div class="col image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkcmNGb-hlvTH-q48QbC1r88q0MVlPdFNk3w&usqp=CAU" alt="" />
                                 </div>
-                                <div class="col image"><img src={img2} alt="" /></div>
-                                <div class="col image"><img src={img3} alt="" />
+                                <div class="col image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhp34mHJWvX_J65klmtRTfzqRyjRb5wjDmQ&usqp=CAU" alt="" /></div>
+                                <div class="col image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ_GxKExJ5Ii3dXCiIATWLDGlzlh5TEb0BIQ&usqp=CAU" alt="" />
                                 </div>
                             </div>
 
